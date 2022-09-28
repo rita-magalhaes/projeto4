@@ -1,0 +1,111 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+
+img {
+    display: block;
+    max-width: 50%;
+
+}
+
+li {
+  list-style: none;  
+}
+
+body {
+    font-family: 'Source Code Pro', monospace; 
+    background: url("/imagens/bg.jpg") no-repeat top center; 
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    color: #aeaeae;
+}
+
+
+
+.title {
+   font-size: 36px; 
+   font-weight: normal;
+}
+
+
+.box {
+    background: rgb(67, 40, 40);
+    padding: 4rem;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0,  0.16);
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+
+
+.profile-pic {
+border-radius: 50%;
+margin:0 auto 2rem auto;
+
+}
+
+.profile span{
+   font-size: 24px; 
+}
+
+.profile p{
+font-size: 18px;
+margin-top: 2rem;
+margin-bottom: 4rem;
+
+
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: center; 
+}
+
+.redes-sociais li {
+    margin-right: 1rem;
+}
+
+.portifolio {
+  max-width: 886px; 
+   box-sizing: border-box;
+}
+
+.portifolio ul {
+  margin-top: 3rem;  
+}
+
+.portifolio li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    text-align: left;
+    gap: 1rem;
+    color: #c28f8f;
+}
+
+.portifolio li + li {
+    margin-top: 2rem;
+}
+
+.portifolio img {
+    border-radius: 10px;
+}
+
+
+.portifolio h2{
+font-weight: normal;
+margin-bottom: 1rem;
+}
+
+.copyright {
+ font-size: 24px; 
+ color: rgb(0, 0, 0); 
+ text-shadow: 2px 2px 16px rgb(99, 50, 50); 
+ margin: 50vh 0;
+}
+
